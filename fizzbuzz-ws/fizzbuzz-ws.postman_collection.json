@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "cc641dd4-f684-4ff8-ad1d-3da6546f3ffa",
+		"name": "fizzbuzz-ws",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/intraway/api/fizzbuzz",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/intraway/api/fizzbuzz",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"intraway",
+						"api",
+						"fizzbuzz"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/intraway/api/fizzbuzz/10/20",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/intraway/api/fizzbuzz/10/20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"intraway",
+						"api",
+						"fizzbuzz",
+						"10",
+						"20"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
